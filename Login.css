@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    padding-left: 60px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button1{
+    background-color: rgb(0, 149, 255);
+}
